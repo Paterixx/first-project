@@ -1,1 +1,1 @@
-git@github.com:Paterixx/first-project.git
+https://github.com/Paterixx/first-project.git
