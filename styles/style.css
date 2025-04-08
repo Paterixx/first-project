@@ -144,6 +144,12 @@
   height: 250px;
   border-radius: 20px;
   background-color: #5DB7DE;
+  transition: transform 0.25s;
+}
+
+.cover__card:hover {
+  transition: 0.25s;
+  transform: scale(1.035);
 }
 
 .link-off {
@@ -220,6 +226,12 @@
   letter-spacing: 1.2;
   text-decoration: none;
   background-color: #5DB7DE;
+  transition: transform 0.25s;
+}
+
+.link-file:hover {
+  transition: 0.25s;
+  transform: scale(1.07);  
 }
 
 .services__card-list {
@@ -236,6 +248,12 @@
   height: 223px;
   border-radius: 20px;
   background-color: #3D348B;
+  transition: transform 0.25s;
+}
+
+.services__card:hover {
+  transition: 0.25s;
+  transform: scale(1.035);
 }
 
 .information {
@@ -315,6 +333,12 @@
 .card-video_play-image {
   width: 66.67px;
   height: auto;
+  transition: transform 0.25s;
+}
+
+.card-video_play-image:hover {
+  transition: 0.25s;
+  transform: scale(1.07);
 }
 
 .information__card {
@@ -361,6 +385,12 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
+  transition: transform 0.25s;
+}
+
+.news__card:hover {
+  transition: 0.25s;
+  transform: scale(1.035);  
 }
 
 .news__image {
